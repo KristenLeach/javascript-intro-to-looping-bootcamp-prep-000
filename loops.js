@@ -11,7 +11,8 @@ for (let i = 0; i < 25; i++){
 }
 
 function whileLoop(number){
+  let countdown = 100;
   while (countdown>0){
-    console.log(--countdown)
+    console.log(--countdown);
   }
 }
